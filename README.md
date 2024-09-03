@@ -15,3 +15,23 @@ Certifique-se de que você tem o Python 3 instalado em sua máquina. Para instal
 
 ```bash
 pip install -r requirements.txt
+```
+
+## Menu de Opções
+- **1- Informações:** Exibe informações sobre as plataformas suportadas.
+- **2- Video (MP4):** Baixa vídeos no formato MP4.
+- **3- Audio (MP3):** Baixa o áudio de vídeos no formato MP3.
+- **0- Sair:** Encerra o programa.
+
+## Observações
+**Qualidade e Formato Fixos:** Para simplificar, os vídeos são sempre convertidos para MP4 e os áudios para MP3. Se necessário, o menu pode ser reformulado para permitir mais opções de escolha para o usuário.
+
+## Dependências
+**yt-dlp:** Ferramenta de download de vídeos e áudios de várias plataformas.
+Python 3.6+
+
+## Contribuindo
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
+
+## Licença
+Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes.
